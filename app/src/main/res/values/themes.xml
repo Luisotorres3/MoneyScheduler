@@ -1,0 +1,67 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.MoneyScheduler" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">#402a2a</item>
+        <item name="colorPrimaryVariant">@color/background_navbar</item>
+        <item name="colorOnPrimary">@color/background</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/background</item>
+        <item name="colorSecondaryVariant">@color/background</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <item name="android:textColor">@color/white</item>
+
+        <item name="backgroundTint">@color/background_navbar</item>
+
+        <!-- Customize your theme here. -->
+    </style>
+    <!-- End Theme.MoneyScheduler style -->
+
+    <!-- SplashTheme style -->
+    <style name="SplashTheme" parent="Theme.MoneyScheduler">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryVariant">@color/background</item>
+        <item name="colorOnPrimary">@color/background</item>
+        <item name="android:windowBackground">@drawable/splashscreen</item>
+
+    </style>
+    <!-- End SplashTheme style -->
+
+    <!-- Change primary color style -->
+    <style name="CambiarColorPrimario" parent="Theme.MoneyScheduler">
+        <item name="colorOnPrimary">@color/black</item>
+    </style>
+    <!-- End SplashTheme style -->
+
+    <!-- Define a global style for AboutPage in your 'styles.xml' -->
+    <style name="AboutPage" parent="about_About">
+        <item name="aboutBackground">@color/white</item>
+        <item name="aboutElementIconTint">@color/black</item>
+        <item name="aboutSeparatorColor">@color/black</item>
+        <item name="aboutDescriptionTextAppearance">@style/TextAppearance.App.AboutPage.Description</item>
+        <!-- similarly, you can also apply the following text appearances -->
+        <item name="aboutElementTextAppearance">@style/aboutText</item>
+        <item name="aboutGroupTextAppearance">@style/aboutText</item>
+    </style>
+    <style name="TextAppearance.App.AboutPage.Description" parent="about_descriptionTextAppearance.Dark">
+        <item name="android:textStyle">bold|italic</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="aboutText">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/about_group_item_text_size</item>
+    </style>
+    <!-- End AboutPage style -->
+
+    <!-- Fragment style -->
+    <style name="Fragment" parent="Theme.MoneyScheduler">
+        <item name="android:backgroundTint">@color/white</item>
+        <item name="android:background">@color/background</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <!-- End Fragment style -->
+
+
+</resources>
