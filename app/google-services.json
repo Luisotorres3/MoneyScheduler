@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "405818066974",
+    "project_id": "moneyscheduler-e0d58",
+    "storage_bucket": "moneyscheduler-e0d58.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:405818066974:android:15233363156fd5654a860f",
+        "android_client_info": {
+          "package_name": "com.pdm.moneyscheduler"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "405818066974-ekpvmeg3vfdp1993cermvm76beqlr9mr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLLgPWzxUnah9jtHhCFCCx-Auk6jArIBE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "405818066974-b9pq6rd4e0ds7marg0aoub3nh24psjcq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
