@@ -6,10 +6,27 @@
     <color name="orange">@android:color/holo_orange_dark</color>
     <color name="dark_orange">#FF5722</color>
     <color name="light_orange">#F68F6E</color>
+    <color name="red">@android:color/holo_red_dark</color>
+    <color name="blue">@android:color/holo_blue_dark</color>
 
     <color name="background">@color/dark_orange</color>
     <color name="background_fragment">@color/orange</color>
     <color name="background_navbar">@color/light_orange</color>
+    <color name="backgroundTint">#D3D3D3</color>
     <color name="primary">@color/white</color>
+
+
+    <!-- Colores Categorías Gastos -->
+    <color name="entertainment_color">@color/orange</color>
+    <color name="food_color">@color/light_orange</color>
+    <color name="transport_color">@color/dark_orange</color>
+    <color name="others_color">@android:color/holo_blue_bright</color>
+    <!-- -->
+
+    <!-- Colores Categorías Ingresos -->
+    <color name="work_color">@color/entertainment_color</color>
+    <color name="gift_color">@color/food_color</color>
+    <color name="savings_color">@color/transport_color</color>
+    <!-- -->
 
 </resources>

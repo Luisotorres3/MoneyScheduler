@@ -1,0 +1,3 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:radius="500dp" /> <!-- Ajusta el radio para hacerlo más o menos redondo -->
+</shape>

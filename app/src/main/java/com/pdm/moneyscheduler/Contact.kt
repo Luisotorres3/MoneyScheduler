@@ -38,7 +38,7 @@ class Contact : Fragment() {
         return AboutPage(getContext(), R.style.AboutPage)
             .isRTL(false)
             //.setCustomFont(String) // or Typeface
-            .setImage(R.mipmap.pan_icon)
+            .setImage(R.mipmap.logo_icon)
             //.addItem(versionElement)
             //.addItem(adsElement)
             .setDescription(getString(R.string.descripcion_contacto))

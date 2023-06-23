@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/nav_contact"
+        android:title="@string/contact"
+        android:icon="@drawable/contact_icon"/>
+
+    <item android:id="@+id/nav_graphs"
+        android:title="@string/graph"
+        android:icon="@mipmap/graph_icon_foreground"/>
+
+
+</menu>

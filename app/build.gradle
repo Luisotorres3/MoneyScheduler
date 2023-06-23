@@ -1,6 +1,7 @@
 plugins {
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
+    id 'com.google.gms.google-services'
 }
 
 android {
@@ -15,6 +16,9 @@ android {
         versionName "1.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+    buildFeatures{
+        viewBinding true
     }
 
     buildTypes {
@@ -38,12 +42,23 @@ dependencies {
     implementation 'androidx.appcompat:appcompat:1.6.1'
     implementation 'com.google.android.material:material:1.9.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    implementation 'com.google.firebase:firebase-auth:22.0.0'
+    implementation 'com.google.firebase:firebase-database:20.2.2'
+    implementation 'com.google.firebase:firebase-firestore:24.6.1'
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.5'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
 
     //About Page
     implementation 'io.github.medyo:android-about-page:2.0.0'
+    //SplashScreen
+    implementation 'androidx.core:core-splashscreen:1.0.1'
+    //Pie Chart
+    implementation 'com.github.PhilJay:MPAndroidChart:v3.1.0'
+    //Swipe Decorator
+    implementation 'it.xabaras.android:recyclerview-swipedecorator:1.4'
+
+
 
 
 }

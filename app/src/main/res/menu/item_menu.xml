@@ -1,25 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
 
 
 
-    <item android:id="@+id/nav_profile"
-        android:title="@string/profile"
-        android:icon="@drawable/profile_icon"/>
+    <item android:id="@+id/nav_income"
+        android:title="@string/income"
+        android:icon="@drawable/income_icon"/>
 
     <item android:id="@+id/nav_goals"
         android:title="@string/goals"
         android:icon="@drawable/goal_icon"/>
+
     <item android:id="@+id/nav_home"
         android:title="@string/home"
-        android:icon="@drawable/home_start"
+        android:icon="@drawable/expense_icon"
         />
 
-    <item android:id="@+id/nav_contact2"
-        android:title="@string/settings"
-        android:icon="@drawable/goals_settings"/>
-
-    <item android:id="@+id/nav_contact"
-        android:title="@string/home"
-        android:icon="@drawable/contact_icon"/>
+    <item android:id="@+id/nav_extras"
+        android:title="Extras"
+        android:icon="@drawable/extras_icon"
+        />
 </menu>

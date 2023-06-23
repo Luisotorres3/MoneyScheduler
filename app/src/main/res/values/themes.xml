@@ -25,7 +25,6 @@
         <item name="colorPrimaryVariant">@color/background</item>
         <item name="colorOnPrimary">@color/background</item>
         <item name="android:windowBackground">@drawable/splashscreen</item>
-
     </style>
     <!-- End SplashTheme style -->
 
@@ -37,31 +36,55 @@
 
     <!-- Define a global style for AboutPage in your 'styles.xml' -->
     <style name="AboutPage" parent="about_About">
-        <item name="aboutBackground">@color/white</item>
+        <item name="aboutBackground">@color/backgroundTint</item>
         <item name="aboutElementIconTint">@color/black</item>
         <item name="aboutSeparatorColor">@color/black</item>
-        <item name="aboutDescriptionTextAppearance">@style/TextAppearance.App.AboutPage.Description</item>
-        <!-- similarly, you can also apply the following text appearances -->
-        <item name="aboutElementTextAppearance">@style/aboutText</item>
-        <item name="aboutGroupTextAppearance">@style/aboutText</item>
+        <item name="android:textColor">@color/black</item>
     </style>
-    <style name="TextAppearance.App.AboutPage.Description" parent="about_descriptionTextAppearance.Dark">
+    <style name="TextAppearance.App.AboutPage.Description" parent="about_descriptionTextAppearance">
         <item name="android:textStyle">bold|italic</item>
         <item name="android:textColor">@color/black</item>
-    </style>
-    <style name="aboutText">
-        <item name="android:textColor">@color/black</item>
-        <item name="android:textSize">@dimen/about_group_item_text_size</item>
+        <item name="android:textColorPrimary">@color/black</item>
     </style>
     <!-- End AboutPage style -->
 
     <!-- Fragment style -->
     <style name="Fragment" parent="Theme.MoneyScheduler">
-        <item name="android:backgroundTint">@color/white</item>
+        <item name="android:backgroundTint">@color/backgroundTint</item>
         <item name="android:background">@color/background</item>
         <item name="android:textColor">@color/black</item>
     </style>
     <!-- End Fragment style -->
 
 
+    <!-- SplashScreen API style -->
+    <style name="Theme.App.Starting" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/background_navbar</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/logo_user</item>
+        <item name="windowSplashScreenAnimationDuration">300</item>
+        <item name="postSplashScreenTheme">@style/Theme.MoneyScheduler</item>
+    </style>
+    <!-- End SplashSCreen API style -->
+
+    <!-- Fragment style -->
+    <style name="Spinner" parent="Theme.AppCompat.Light.Dialog">
+        <item name="colorAccent">@color/black</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <!-- End Fragment style -->
+
+    <!-- Dialog style -->
+    <style name="AlertDialogCustom" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textColorPrimary">@color/black</item>
+        <item name="android:textColorSecondary">@color/black</item>
+    </style>
+    <!-- End Dialog style -->
+
+    <!-- Dialog style -->
+    <style name="Image" parent="Theme.MoneyScheduler">
+        <item name="colorPrimaryVariant">@color/black</item>
+        <item name="backgroundTint">@color/white</item>
+    </style>
+    <!-- End Dialog style -->
 </resources>
