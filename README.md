@@ -1,44 +1,122 @@
 # MoneyScheduler
 
-## Descripción del Proyecto
+### 🌐 Español | English | Français
 
-**Español:**  
-MoneyScheduler es una aplicación de gestión de finanzas personales que permite a los usuarios registrar, categorizar y hacer un seguimiento de sus ingresos y gastos. Ofrece funcionalidades como gráficos de comparación, establecimiento de metas y sincronización de datos en tiempo real con Firebase. Está desarrollada usando Android Studio y los lenguajes Kotlin y Java.
+---
 
-**Inglés:**  
-MoneyScheduler is a personal finance management app that enables users to record, categorize, and track their income and expenses. It includes features such as comparison charts, goal setting, and real-time data synchronization with Firebase. The app is developed using Android Studio and the languages Kotlin and Java.
+## 📱 Aplicación de Gestión de Ingresos y Gastos | Expense and Income Management App | Application de gestion des dépenses et des revenus
 
-**Français:**  
-MoneyScheduler est une application de gestion des finances personnelles permettant aux utilisateurs d'enregistrer, de catégoriser et de suivre leurs revenus et dépenses. Elle propose des fonctionnalités telles que des graphiques de comparaison, la définition d'objectifs et la synchronisation des données en temps réel avec Firebase. L'application est développée avec Android Studio et les langages Kotlin et Java.
+MoneyScheduler es una aplicación móvil para gestionar tus ingresos y gastos de manera eficiente. Permite registrar, categorizar y analizar tus transacciones financieras, además de establecer metas de ahorro.
 
-## Funcionalidades Clave / Key Features / Fonctionnalités
+MoneyScheduler is a mobile application designed to efficiently manage your incomes and expenses. It allows you to record, categorize, and analyze your financial transactions, as well as set savings goals.
 
-- **Registrar y visualizar ingresos y gastos / Register and view income and expenses / Enregistrer et visualiser les revenus et dépenses.**
-- **Establecer metas financieras / Set financial goals / Définir des objectifs financiers.**
-- **Comparar ingresos y gastos entre meses / Compare income and expenses between months / Comparer les revenus et dépenses entre les mois.**
-- **Sincronización de datos en tiempo real / Real-time data synchronization / Synchronisation des données en temps réel.**
-- **Deslizar para editar o eliminar transacciones / Swipe to edit or delete transactions / Glisser pour modifier ou supprimer des transactions.**
+MoneyScheduler est une application mobile conçue pour gérer efficacement vos revenus et dépenses. Elle vous permet d'enregistrer, de catégoriser et d'analyser vos transactions financières, ainsi que de fixer des objectifs d'épargne.
 
-## Tecnologías Utilizadas / Technologies Used / Technologies Utilisées
+---
 
-- **Android Studio**
-- **Kotlin**
-- **Firebase**
-- **Java**
+## 🎯 Funcionalidades | Features | Fonctionnalités
 
-## Arquitectura / Architecture / Architecture
+- **Gestión de ingresos y gastos** | **Expense and Income Management** | **Gestion des dépenses et des revenus**
+- **Visualización gráfica** | **Graphical Visualization** | **Visualisation graphique**
+- **Establecimiento de metas** | **Goal Setting** | **Définition des objectifs**
+- **Comparación de períodos** | **Period Comparison** | **Comparaison des périodes**
+- **Sincronización en tiempo real con Firebase** | **Real-Time Sync with Firebase** | **Synchronisation en temps réel avec Firebase**
 
-- **Español:**  
-  La aplicación sigue el patrón de arquitectura Modelo-Vista-Controlador (MVC), separando la lógica en diferentes capas: el **Modelo** gestiona los datos, la **Vista** presenta la interfaz, y el **Controlador** coordina la comunicación entre ambos.
+---
 
-- **Inglés:**  
-  The app follows the Model-View-Controller (MVC) architecture pattern, separating the logic into different layers: the **Model** handles data, the **View** manages the interface, and the **Controller** coordinates between them.
+## 📷 Capturas de Pantalla | Screenshots | Captures d'écran
 
-- **Français:**  
-  L'application suit le modèle d'architecture Modèle-Vue-Contrôleur (MVC), séparant la logique en différentes couches : le **Modèle** gère les données, la **Vue** présente l'interface, et le **Contrôleur** coordonne la communication entre eux.
+### Español
 
-## Cómo Ejecutar el Proyecto / How to Run the Project / Comment Exécuter le Projet
+![Pantalla de Gastos](ruta/a/imagen-gastos.png)
+![Pantalla de Metas](ruta/a/imagen-metas.png)
 
-1. **Clonar el repositorio:**
-   ```bash
-   git clone https://github.com/Luisotorres3/MoneyScheduler.git
+### English
+
+![Expense Screen](path/to/expense-image.png)
+![Goals Screen](path/to/goals-image.png)
+
+### Français
+
+![Écran des dépenses](chemin/vers/image-depenses.png)
+![Écran des objectifs](chemin/vers/image-objectifs.png)
+
+---
+
+## 🎥 Demo
+
+### Español
+
+[![Ver Video](ruta/a/imagen-video.png)](https://youtube.com/tu-video-demo)
+
+### English
+
+[![Watch Video](path/to/video-image.png)](https://youtube.com/your-demo-video)
+
+### Français
+
+[![Regarder la vidéo](chemin/vers/image-video.png)](https://youtube.com/votre-video-demo)
+
+---
+
+## ⚙️ Instalación | Installation | Installation
+
+### Español
+
+1. Clona el repositorio: `git clone https://github.com/Luisotorres3/MoneyScheduler.git`
+2. Abre el proyecto en Android Studio.
+3. Configura Firebase con tus credenciales.
+4. Ejecuta la app en tu dispositivo.
+
+### English
+
+1. Clone the repository: `git clone https://github.com/Luisotorres3/MoneyScheduler.git`
+2. Open the project in Android Studio.
+3. Set up Firebase with your credentials.
+4. Run the app on your device.
+
+### Français
+
+1. Clonez le dépôt : `git clone https://github.com/Luisotorres3/MoneyScheduler.git`
+2. Ouvrez le projet dans Android Studio.
+3. Configurez Firebase avec vos identifiants.
+4. Exécutez l'application sur votre appareil.
+
+---
+
+## 🚀 Tecnologías Usadas | Technologies Used | Technologies Utilisées
+
+- **Kotlin**: Desarrollo de la lógica de la aplicación.
+- **Java**: Implementación de adaptadores para RecyclerView.
+- **Android Studio**: IDE principal.
+- **Firebase**: Almacenamiento en tiempo real y autenticación.
+
+---
+
+## 🏛️ Arquitectura | Architecture | Architecture
+
+La aplicación utiliza el patrón **Modelo-Vista-Controlador (MVC)**:
+
+- **Modelo**: Maneja la lógica de negocio y la comunicación con la base de datos.
+- **Vista**: Representa las pantallas de la app (Gastos, Ingresos, Metas).
+- **Controlador**: Gestiona la interacción entre la vista y el modelo, coordinando el flujo de datos.
+
+---
+
+## 👥 Colaboradores | Contributors | Contributeurs
+
+- Luis O. Torres - [Luisotorres3](https://github.com/Luisotorres3)
+
+---
+
+## 📄 Licencia | License | Licence
+
+Este proyecto está bajo la licencia MIT. | This project is under the MIT License. | Ce projet est sous licence MIT.
+
+---
+
+## 📧 Contacto | Contact | Contact
+
+Si tienes alguna pregunta o sugerencia, no dudes en ponerte en contacto:
+
+- Luis Soto Torres - [GitHub](https://github.com/Luisotorres3)
